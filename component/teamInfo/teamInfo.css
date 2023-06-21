@@ -1,0 +1,68 @@
+
+
+.activityPage-body{
+    
+    margin:0px;
+    padding:0px;
+    height: 100vh;
+  }
+  .ActivityBanner{
+    margin:0px;
+    padding:0px;
+  
+    height: 100vh;
+    object-fit: cover;
+    object-position: 0% 0%;
+    background-image: linear-gradient(rgba(63, 131, 131, 0.401), rgb(255, 255, 255)) ,url("image/exampleBanner.jpg");
+    background-size: cover, cover;
+    background-repeat: no-repeat, no-repeat;
+    text-align: center;
+    font-size: 40px;
+  }
+  .activity-explanation{
+    font-size: 24px;
+    padding-left: 100px;
+    padding-right:100px;
+  }
+
+  .p-teamInfo{
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    margin-top: 20px;
+    color: #333;
+    object-fit: cover;
+    
+  }
+
+  @media screen and (max-width: 768px) {
+    .ActivityBanner {
+      font-size: 30px;
+    }
+  
+    .activity-explanation {
+      font-size: 20px;
+      padding-left: 50px;
+      padding-right: 50px;
+    }
+  
+    .p-teamInfo {
+      font-size: 24px;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .ActivityBanner {
+      font-size: 24px;
+    }
+  
+    .activity-explanation {
+      font-size: 18px;
+      padding-left: 30px;
+      padding-right: 30px;
+    }
+  
+    .p-teamInfo {
+      font-size: 20px;
+    }
+  }
