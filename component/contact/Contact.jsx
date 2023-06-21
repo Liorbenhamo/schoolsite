@@ -3,7 +3,7 @@ import emailjs from '@emailjs/browser'
 import { ToastContainer, toast } from "react-toastify";
 import {  Link } from "react-router-dom";
 import "react-toastify/dist/ReactToastify.css";
-import "./Contact.css";
+import "./contact.css";
 import {faUser,faEnvelope,faMessage} from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
